@@ -1,0 +1,36 @@
+﻿@model SanjivaniModalView.UserIntraction
+<div class="box-body no-padding">
+    <div class="box-body table-responsive" id="OrderDtl">
+        <table id="example1" class="table table-bordered table-striped">
+
+            <thead>
+                <tr style="color: white;background-color: #1c7faf;">
+                    <th align="center">Date</th>
+                    <th>CP Intraction</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{ int rowNo = 0; }
+                @foreach (var item in ViewBag.UserIntract)
+                {
+                    @Html.HiddenFor(model => model.IntractionId)
+                    <tr>
+                        @*<td>@item.RegistrationDate</td>*@
+                        <td>
+                            @item.Date
+                            @*@(rowNo += 1)*@
+                        </td>
+
+                        <td>@item.Intraction</td>
+                        <td align="center"><a href="@Url.Action("", "",new { IntractionId= @item.IntractionId })" class=""><i class="fa fa-eye"></i>Edit</a></td>
+                        <td align="center"><a href="@Url.Action("DeleteUserIntraction", "Partner",new { IntractionId= @item.IntractionId })" class=""><i class="fa fa-eye"></i>Delete</a></td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+

@@ -1,0 +1,257 @@
+D:\Projects\Sanjivani\Sanjivani\obj\Debug\Sanjivani.csprojResolveAssemblyReference.cache
+D:\Projects\Sanjivani\Sanjivani\bin\ApplicationInsights.config
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\csc.exe
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\vbc.exe
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\VBCSCompiler.exe
+D:\Projects\Sanjivani\Sanjivani\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Sanjivani\Sanjivani\bin\Sanjivani.dll.config
+D:\Projects\Sanjivani\Sanjivani\bin\Sanjivani.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Sanjivani.pdb
+D:\Projects\Sanjivani\Sanjivani\bin\Antlr3.Runtime.dll
+D:\Projects\Sanjivani\Sanjivani\bin\EntityFramework.dll
+D:\Projects\Sanjivani\Sanjivani\bin\EntityFramework.SqlServer.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.Web.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Google.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Newtonsoft.Json.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Owin.dll
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Helpers.dll
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Mvc.dll
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Optimization.dll
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Razor.dll
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.WebPages.dll
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Sanjivani\Sanjivani\bin\WebGrease.dll
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.Web.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Helpers.xml
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Mvc.xml
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Optimization.xml
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.Razor.xml
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.WebPages.xml
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Sanjivani\Sanjivani\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Antlr3.Runtime.pdb
+D:\Projects\Sanjivani\Sanjivani\bin\Newtonsoft.Json.xml
+D:\Projects\Sanjivani\Sanjivani\bin\EntityFramework.xml
+D:\Projects\Sanjivani\Sanjivani\bin\EntityFramework.SqlServer.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Google.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Projects\Sanjivani\Sanjivani\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Projects\Sanjivani\Sanjivani\obj\Debug\Sanjivani.dll
+D:\Projects\Sanjivani\Sanjivani\obj\Debug\Sanjivani.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\ApplicationInsights.config
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\csc.exe
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\System.Collections.Immutable.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\System.Reflection.Metadata.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\vbc.exe
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\VBCSCompiler.exe
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\roslyn\VBCSCompiler.exe.config
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Sanjivani.dll.config
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Sanjivani.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Sanjivani.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Antlr3.Runtime.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\EntityFramework.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\EntityFramework.SqlServer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.DependencyCollector.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.Web.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.WindowsServer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.ApplicationInsights.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Google.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Web.Infrastructure.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Newtonsoft.Json.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Owin.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\SanjivaniBusinessLayer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\SanjivaniModalView.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Helpers.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Mvc.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Optimization.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Razor.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Deployment.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Razor.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\WebGrease.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.DependencyCollector.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.Web.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AI.WindowsServer.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.ApplicationInsights.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\SanjivaniBusinessLayer.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\SanjivaniModalView.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Helpers.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Mvc.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Optimization.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.Razor.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Deployment.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Razor.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Antlr3.Runtime.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Newtonsoft.Json.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\EntityFramework.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\EntityFramework.SqlServer.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Google.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.csprojResolveAssemblyReference.cache
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\ApplicationInsights.config
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\csc.exe
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\System.Collections.Immutable.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\System.Reflection.Metadata.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\vbc.exe
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\VBCSCompiler.exe
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\roslyn\VBCSCompiler.exe.config
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Sanjivani.dll.config
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Sanjivani.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Sanjivani.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Antlr3.Runtime.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\EntityFramework.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\EntityFramework.SqlServer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.DependencyCollector.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.Web.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.WindowsServer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.ApplicationInsights.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Google.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Web.Infrastructure.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Newtonsoft.Json.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Owin.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniModalView.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Helpers.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Mvc.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Optimization.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Razor.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Deployment.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Razor.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\WebGrease.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniModalView.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.DependencyCollector.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.Web.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.WindowsServer.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.ApplicationInsights.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniBusinessLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Helpers.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Mvc.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Optimization.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Razor.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Deployment.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Razor.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Antlr3.Runtime.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Newtonsoft.Json.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\EntityFramework.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\EntityFramework.SqlServer.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Google.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.csprojResolveAssemblyReference.cache
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.pdb

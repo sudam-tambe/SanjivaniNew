@@ -1,0 +1,18 @@
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniBusinessLayer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniBusinessLayer.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniDataLinkLayer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniModalView.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniDataLinkLayer.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniModalView.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\obj\Debug\SanjivaniBusinessLayer.csprojResolveAssemblyReference.cache
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\obj\Debug\SanjivaniBusinessLayer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniBusinessLayer\obj\Debug\SanjivaniBusinessLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniBusinessLayer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniBusinessLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniDataLinkLayer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniModalView.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniDataLinkLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\bin\Debug\SanjivaniModalView.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\obj\Debug\SanjivaniBusinessLayer.csprojResolveAssemblyReference.cache
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\obj\Debug\SanjivaniBusinessLayer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniBusinessLayer\obj\Debug\SanjivaniBusinessLayer.pdb

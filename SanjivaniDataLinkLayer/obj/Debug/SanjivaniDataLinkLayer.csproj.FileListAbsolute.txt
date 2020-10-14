@@ -1,0 +1,12 @@
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniDataLinkLayer\bin\Debug\SanjivaniDataLinkLayer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniDataLinkLayer\bin\Debug\SanjivaniDataLinkLayer.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniDataLinkLayer\bin\Debug\SanjivaniModalView.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniDataLinkLayer\bin\Debug\SanjivaniModalView.pdb
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniDataLinkLayer\obj\Debug\SanjivaniDataLinkLayer.dll
+D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniDataLinkLayer\obj\Debug\SanjivaniDataLinkLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniDataLinkLayer\bin\Debug\SanjivaniDataLinkLayer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniDataLinkLayer\bin\Debug\SanjivaniDataLinkLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniDataLinkLayer\bin\Debug\SanjivaniModalView.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniDataLinkLayer\obj\Debug\SanjivaniDataLinkLayer.csprojResolveAssemblyReference.cache
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniDataLinkLayer\obj\Debug\SanjivaniDataLinkLayer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniDataLinkLayer\obj\Debug\SanjivaniDataLinkLayer.pdb
