@@ -842,7 +842,7 @@ namespace SanjivaniDataLinkLayer
 
             dinsert1.Parameters.AddWithValue("@ContactPersonName", SqlDbType.VarChar).Value = bD.CommanyName;
 
-            dinsert1.Parameters.AddWithValue("@DesignationId", SqlDbType.Int).Value = bD.Designation;
+            dinsert1.Parameters.AddWithValue("@DesignationId", SqlDbType.VarChar).Value = bD.Designation;
 
             dinsert1.Parameters.AddWithValue("@ContactNo", SqlDbType.VarChar).Value = bD.BContactnumber;
 

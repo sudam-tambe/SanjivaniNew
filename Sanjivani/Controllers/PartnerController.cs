@@ -367,9 +367,7 @@ namespace Sanjivani.Controllers
         public ActionResult UserIntraction(string CustId)
         {
             UserIntraction cd = new UserIntraction();
-           // cd.CustID = Convert.ToInt32(CustId);
-            //if (IntractionId != "")
-            //    cd = objPartnerBAL.GetDeleteUserIntraction(Convert.ToInt32(IntractionId));
+            cd.CustID = Convert.ToInt32(CustId);
             return View();
         }
         public ActionResult DeleteUserIntraction(int IntractionId)
@@ -380,14 +378,9 @@ namespace Sanjivani.Controllers
         }
         public ActionResult _PartialUserIntarction(string CustId)
         {
+           var CustID = Convert.ToInt32(Session["CustId"]);
             if (CustId != "")
-                ViewBag.UserIntract = objPartnerBAL.GetUserIntraction(Convert.ToInt32(CustId));
-            return View();
-        }
-
-        public ActionResult EditUserIntraction(string CustId)
-        {
-
+                ViewBag.UserIntract = objPartnerBAL.GetUserIntraction(Convert.ToInt32(CustID));
             return View();
         }
 
@@ -398,13 +391,13 @@ namespace Sanjivani.Controllers
             if (res)
             {
                 //int Res = Mb.UpdateMemPassword(UserId, Mp.Password);
-                return Json(new { Success = true, Messege = "Password Changed Successfully", Status = 200 });
+               // return Json(new { Success = true, Messege = "Password Changed Successfully", Status = 200 });
             }
             else
             {
-                return Json(new { Success = false, Messege = "Please Enter Valid Old Password", Status = 400 });
+                //return Json(new { Success = false, Messege = "Please Enter Valid Old Password", Status = 400 });
             }
-            return View();
+            return view();
         }
         public ActionResult _PartialCPPerstionalDtl(string CustId)
         {
