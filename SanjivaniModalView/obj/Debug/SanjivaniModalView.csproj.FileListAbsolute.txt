@@ -4,6 +4,5 @@ D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniModalView\obj\Debug\SanjivaniM
 D:\Vijay Project\DellBackUp\SanjivaniNew\SanjivaniModalView\obj\Debug\SanjivaniModalView.pdb
 D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniModalView\bin\Debug\SanjivaniModalView.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniModalView\bin\Debug\SanjivaniModalView.pdb
-D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniModalView\obj\Debug\SanjivaniModalView.csprojResolveAssemblyReference.cache
 D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniModalView\obj\Debug\SanjivaniModalView.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\SanjivaniModalView\obj\Debug\SanjivaniModalView.pdb

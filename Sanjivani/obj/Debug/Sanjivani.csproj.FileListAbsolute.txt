@@ -210,6 +210,8 @@ D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Securi
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Web.Infrastructure.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Newtonsoft.Json.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Owin.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniBusinessLayer.dll
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniModalView.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Helpers.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Mvc.dll
@@ -219,8 +221,6 @@ D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.D
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.WebPages.Razor.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\WebGrease.dll
-D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.dll
-D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniModalView.pdb
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.DependencyCollector.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.Web.xml
@@ -228,6 +228,8 @@ D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.AI.WindowsS
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.ApplicationInsights.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniBusinessLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.pdb
+D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniModalView.pdb
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Helpers.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Mvc.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\System.Web.Optimization.xml
@@ -251,7 +253,6 @@ D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Securi
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Google.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\bin\SanjivaniDataLinkLayer.pdb
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.csprojResolveAssemblyReference.cache
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.dll
 D:\Sanjivani Project\New folder\SanjivaniNew\Sanjivani\obj\Debug\Sanjivani.pdb

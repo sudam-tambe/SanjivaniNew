@@ -79,8 +79,16 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="SanjivaniBusinessLayer">
-      <HintPath>..\..\Sanjivani\SanjivaniERP\SanjivaniBusinessLayer\bin\Debug\SanjivaniBusinessLayer.dll</HintPath>
+    <Reference Include="SanjivaniBusinessLayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SanjivaniBusinessLayer\bin\Debug\SanjivaniBusinessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="SanjivaniDataLinkLayer">
+      <HintPath>..\SanjivaniDataLinkLayer\bin\Debug\SanjivaniDataLinkLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="SanjivaniModalView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SanjivaniModalView\bin\Debug\SanjivaniModalView.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -203,6 +211,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CPCController.cs" />
     <Compile Include="Controllers\CPController.cs" />
+    <Compile Include="Controllers\CPDashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PartnerController.cs" />
@@ -1830,6 +1839,33 @@
     <Content Include="Content\js\jquery.min.js" />
     <Content Include="Content\js\scripts.min.js" />
     <Content Include="Content\js\vendor.min.js" />
+    <Content Include="Documents\AdhaarCard\images.jpg" />
+    <Content Include="Documents\AdhaarCard\Lightbill11.jpg" />
+    <Content Include="Documents\LightBill\passpost.jpg" />
+    <Content Include="Documents\LightBill\Untitled.png" />
+    <Content Include="Documents\Logo\cross_admin.png" />
+    <Content Include="Documents\Logo\logo11.jpg" />
+    <Content Include="Documents\Logo\pan11.jpg" />
+    <Content Include="Documents\OwnerSignature\logo11.jpg" />
+    <Content Include="Documents\Pan\adhar.jpg" />
+    <Content Include="Documents\Pan\Lightbill11.jpg" />
+    <Content Include="Documents\Pan\logo11.jpg" />
+    <Content Include="Documents\Pan\pan11.jpg" />
+    <Content Include="Documents\Passport\Untitled.png" />
+    <Content Include="Documents\ProfilePhoto\cross.png" />
+    <Content Include="Documents\ProfilePhoto\Lightbill.jpg" />
+    <Content Include="Documents\ProfilePhoto\Lightbill11.jpg" />
+    <Content Include="Documents\ProfilePhoto\logo11.jpg" />
+    <Content Include="Documents\ProfilePhoto\no-image-available.png" />
+    <Content Include="Documents\ProfilePhoto\OwnerSignature1.jpg" />
+    <Content Include="Documents\ProfilePhoto\pan11.jpg" />
+    <Content Include="Documents\ProfilePhoto\passpost.jpg" />
+    <Content Include="Documents\ProfilePhoto\profile.png" />
+    <Content Include="Documents\ProfilePhoto\profile1.png" />
+    <Content Include="Documents\ProfilePhoto\profile12.png" />
+    <Content Include="Documents\RegDocument\logo11.jpg" />
+    <Content Include="Documents\RegDocument\profile12.png" />
+    <Content Include="Documents\RegDocument\Screenshot_2019-12-24-13-26-50-61.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -2002,6 +2038,7 @@
     <Content Include="Content\Boost\plugins\summernote\summernote.min.js.map" />
     <Content Include="Content\Boost\plugins\sweetalert2-theme-bootstrap-4\bootstrap-4.scss" />
     <Content Include="Content\Boost\plugins\toastr\toastr.js.map" />
+    <Content Include="Documents\Logo\Report %285%29.xls" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -2066,6 +2103,7 @@
     <Content Include="Views\Partner\_partialCPDocument.cshtml" />
     <Content Include="Views\Partner\_PartialUserIntarction.cshtml" />
     <Content Include="Views\Partner\ChannaPartnerList.cshtml" />
+    <Content Include="Views\CPDashboard\Dashboard.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -2081,12 +2119,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SanjivaniModalView\SanjivaniModalView.csproj">
-      <Project>{88cb1384-55f3-47fa-a211-d8271e7898d4}</Project>
-      <Name>SanjivaniModalView</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
