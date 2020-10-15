@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Globalization;
 using System.Linq;
 using System.Security.Claims;
@@ -62,7 +63,51 @@ namespace Sanjivani.Controllers
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
-
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> _PartialCPRegister(FormCollection fc, ChennelpartnerModel model, HttpPostedFileBase[] postedFile)
+        {
+            // if (ModelState.IsValid)
+            {
+                if (string.IsNullOrWhiteSpace(model.CustId))
+                {
+                    var user = new ApplicationUser { UserName = model.UserName, Email = model.EmailID };
+                    var result = await UserManager.CreateAsync(user, model.pwd);
+                    if (result.Succeeded)
+                    {
+                        await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+                        var UserId = user.Id;
+                        // if (ModelState.IsValid)
+                        {
+                            model.AspUserId = UserId;
+                            model.ParentId = "1";
+                            model.CustCategroryId = "2";
+                            var EventsTitleList = objPartnerBAL._partialCPSave(model);
+                            if (Convert.ToInt32(EventsTitleList) > 0)
+                            {
+                                Session["Tab"] = "2";
+                                Session["CustId"] = EventsTitleList;
+                                return RedirectToAction("ChannelPartner", "CP");
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    model.ParentId = "1";
+                    model.CustCategroryId = "2";
+                    var EventsTitleList = objPartnerBAL._partialCPSave(model);
+                    if (Convert.ToInt32(EventsTitleList) > 0)
+                    {
+                        Session["Tab"] = "2";
+                        Session["CustId"] = EventsTitleList;
+                        return RedirectToAction("ChannelPartner", "CP");
+                    }
+                }
+            }
+            return RedirectToAction("ChannelPartner", "CP");
+        }
         //
         // POST: /Account/Login
         [HttpPost]
@@ -74,14 +119,25 @@ namespace Sanjivani.Controllers
             {
                 return View(model);
             }
-
+            var userm = UserManager.FindByEmail(model.Email);
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+            var result = await SignInManager.PasswordSignInAsync(userm.Email, model.Password, model.RememberMe, shouldLockout: false);
             switch (result)
             {
                 case SignInStatus.Success:
-                    return RedirectToLocal(returnUrl);
+                    DataTable dt = objPartnerBAL.GetLoginDetail(userm.Id);
+                    Session["UserId"] = Convert.ToString(dt.Rows[0]["CustId"]);
+                    Session["CustName"] = Convert.ToString(dt.Rows[0]["CustName"]);
+                    Session["CustCategeory"] = Convert.ToString(dt.Rows[0]["CustCategeory"]);
+                    Session["Completemsg"] = "No";
+                    Session["Dothis"] = "0";
+                    Session["CustId"] = "0";
+                    Session["Tab"] = "1";
+                    if (Session["CustCategeory"].ToString() == "Director")
+                        return RedirectToAction("ChannaPartnerList", "Partner");
+                    else
+                        return RedirectToAction("Dashboard", "CPDashboard");
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:

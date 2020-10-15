@@ -1,0 +1,239 @@
+﻿@model SanjivaniModalView.CPCchannelPartnerModel
+
+@{
+    ViewBag.Title = "CPCChannelPartner";
+    Layout = "~/Views/Shared/_LayoutSanjivani.cshtml";
+}
+<style>
+    .nav-tabs-custom > .nav-tabs > li.active > a, .nav-tabs-custom > .nav-tabs > li.active:hover > a {
+        background-color: #b92a37;
+    }
+</style>
+<div class="alert alert-info alert-dismissable" id="msg" style="display:none">
+    <i class="fa fa-info"></i>
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <b>Alert!</b> <span id="span">Info alert preview. This alert is dismissable.</span>
+</div>
+
+<section class="content-header">
+    <h1>Channal Partner Customer</h1>
+    <div class="row">
+        <section class="content">
+
+            <div class="col-md-12">
+                <!-- Custom Tabs -->
+                <div class="nav-tabs-custom">
+                    @Html.HiddenFor(model => model.CustId)
+                    <ul class="nav nav-tabs" id="tabUL">
+                        <li id="one" class="active"><a href="#tab_1" data-toggle="tab">Personal Detail</a></li>
+                        <li id="two" class=""><a href="#tab_2" data-toggle="tab">Bank Detail</a></li>
+                        <li id="three" class=""><a href="#tab_3" data-toggle="tab">Document Detail</a></li>
+                        <li class="pull-right"><a href="#" class="text-muted"><i class="fa fa-gear"></i></a></li>
+                    </ul>
+                    <div class="tab-content">
+
+                        <div class="tab-pane active" id="tab_1">
+
+                        </div><!-- /.tab-pane -->
+
+
+                        <div class="tab-pane" id="tab_2">
+
+                        </div><!-- /.tab-pane -->
+                        <div class="tab-pane" id="tab_3">
+
+                        </div><!-- /.tab-pane -->
+                        <!-- /.tab-pane -->
+
+                    </div><!-- /.tab-content -->
+                </div><!-- nav-tabs-custom -->
+            </div>
+
+
+        </section>
+    </div>
+</section>
+
+
+
+<script src="~/Content/js/countrystatecity.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript">
+    debugger
+    var custId = $("#CustId").val();
+    var data = { Custid: custId };
+    var d = loadData("@Url.Action("_partialCPCChannelPartner", "CPC")", data)
+    $('#tab_1').html(d);
+    @*var d = loadData("@Url.Action("_partialCPBusinessDetail", "CP")", {});
+    $('#tab_2').html(d);*@
+    var d = loadData("@Url.Action("_partialCPCBankDetail", "CPC")", data);
+    $('#tab_2').html(d);
+    var d = loadData("@Url.Action("_partialCPCDocument", "CPC")");
+    $('#tab_3').html(d);
+
+    $("#fileuploaded").change(function () {
+        var fileExtension = ['jpeg', 'jpg', 'png', 'pdf'];
+        if ($.inArray($(this).val().split('.').pop().toLowerCase(), fileExtension) == -1) {
+            alert("Only formats are allowed : " + fileExtension.join(', '));
+            $('#fileuploaded').val(null);
+        }
+    });
+    var uploadField = document.getElementById("fileuploaded");
+    uploadField.onchange = function () {
+        if (this.files[0].size > 5000000) {
+            alert("File must be less than 5MB");
+            this.value = null;
+        };
+    };
+
+    $("#fileuploaded1").change(function () {
+        var fileExtension = ['jpeg', 'jpg', 'png', 'pdf'];
+        if ($.inArray($(this).val().split('.').pop().toLowerCase(), fileExtension) == -1) {
+            alert("Only formats are allowed : " + fileExtension.join(', '));
+            $('#fileuploaded').val(null);
+        }
+    });
+    var uploadField = document.getElementById("fileuploaded1");
+    uploadField.onchange = function () {
+        if (this.files[0].size > 5000000) {
+            alert("File must be less than 5MB");
+            this.value = null;
+        };
+    };
+
+
+
+    function IsMobileNumber() {
+        var mob = /^[1-9]{1}[0-9]{9}$/;
+        var txtMobile = document.getElementById("mobileNo").value;
+        if (txtMobile != '') {
+            if (mob.test(txtMobile) == false) {
+
+                $("#mobileNo").val('');
+                $("#msg").show();
+                document.getElementById("span").innerHTML = "Please enter valid mobile number";
+                return false;
+            }
+            return true;
+        }
+
+    }
+    function CnfirmPassword() {
+
+        var pass = document.getElementById("pwd").value;
+        var Confpass = document.getElementById("Cpwd").value;
+        if (Confpass != '') {
+            if (Confpass != pass) {
+
+                $("#Cpwd").val('');
+                $("#msg").show();
+                document.getElementById("span").innerHTML = "Confirm Password Does Not Match";
+                return false;
+            }
+            return true;
+        }
+
+    }
+    function validateCaseSensitiveEmail() {
+        var email = document.getElementById("EmailID").value;
+
+
+        var reg = /^([\w-\.]+)@@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+        if (reg.test(email)) {
+
+        }
+        else {
+
+            $("#EmailID").val('');
+            $("#msg").show();
+            document.getElementById("span").innerHTML = "Please Enter Valid Email";
+        }
+    }
+    function CheckPassword(inputtxt) {
+        var res;
+        var str =
+            document.getElementById("pwd").value;
+        if (str.match(/[a-z]/g) && str.match(
+                /[A-Z]/g) && str.match(
+                /[0-9]/g) && str.match(
+                /[^a-zA-Z\d]/g) && str.length >= 8)
+            res = "TRUE";
+        else {
+            res = "FALSE";
+           // alert("Password Should be Strong");
+            $("#pwd").val('');
+            $("#msg").show();
+            document.getElementById("span").innerHTML = "Password Should be Strong";
+        }
+
+        document.getElementById("t2").value = res;
+    }
+    $("#MobileNo").change(function () {
+        var MobileMo = $("#MobileNo").val();
+        $.ajax({
+            type: "GET",
+            url: "/Home/GetCutomerFromMobile",
+            contentType: "application/json; charset=utf-8",
+            data: 'MobileMo=' + MobileMo,
+            dataType: "json",
+            success: function (response) {
+                if (response != null) {
+                    $('#CustName').val(response.Name);
+
+                } else {
+                    alert("Something went wrong");
+                }
+            },
+            failure: function (response) {
+                alert(response.responseText);
+            },
+            error: function (response) {
+                alert(response.responseText);
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        var session = '@Session["Tab"]';
+
+        debugger;
+
+$('.nav li').removeClass('active');
+debugger;
+            if (session == '2')
+            {
+
+                $('#two').addClass('active')
+                $('#tab_1').removeClass('active')
+                $('#tab_3').removeClass('active')
+              
+                $('#tab_2').addClass('tab-pane active')
+            }
+            else if (session == '3')
+            {
+
+                $('#three').addClass('active')
+                $('#tab_1').removeClass('active')
+                $('#tab_2').removeClass('active')
+                $('#tab_3').addClass('tab-pane active')
+            }
+            else
+            {
+                $('#one').addClass('active')
+                $('#tab_2').removeClass('active')
+                $('#tab_3').removeClass('active')
+                $('#tab_1').addClass('tab-pane active')
+            }
+            //e.preventDefault();
+
+    });
+    function fnAllowNumeric() {
+        if ((event.keyCode < 48 || event.keyCode > 57) && event.keyCode != 8) {
+            event.keyCode = 0;
+            alert("Accept only Integer..!");
+            return false;
+        }
+    }
+
+</script>

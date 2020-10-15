@@ -23,7 +23,9 @@
                         </td>
 
                         <td>@item.Intraction</td>
-                        <td align="center"><a href="@Url.Action("", "",new { IntractionId= @item.IntractionId })" class=""><i class="fa fa-eye"></i>Edit</a></td>
+                        <td align="center">
+                        
+                        <a href="@Url.Action("", "",new { IntractionId= @item.IntractionId })" class=""><i class="fa fa-eye"></i>Edit</a></td>
                         <td align="center"><a href="@Url.Action("DeleteUserIntraction", "Partner",new { IntractionId= @item.IntractionId })" class=""><i class="fa fa-eye"></i>Delete</a></td>
                     </tr>
                 }

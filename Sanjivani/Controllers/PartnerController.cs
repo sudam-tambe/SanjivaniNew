@@ -393,7 +393,7 @@ namespace Sanjivani.Controllers
 
         public ActionResult SetUserIntraction(UserIntraction UsD)
         {
-            // UsD.CustId = Convert.ToInt32(Session["CustId"]);
+            UsD.CustID = Convert.ToInt32(Session["CustId"]);
             bool res = objPartnerBAL.setUserIntarction(UsD);
             if (res)
             {
@@ -435,8 +435,10 @@ namespace Sanjivani.Controllers
         }
         public JsonResult getuserdat(string CustId)
         {
-            var list = objPartnerBAL.GetCountryStateForCPPersonal(Convert.ToInt32(CustId));
-            return Json(list, JsonRequestBehavior.AllowGet);
+         
+                var list = objPartnerBAL.GetCountryStateForCPPersonal(Convert.ToInt32(CustId));
+                return Json(list, JsonRequestBehavior.AllowGet);
+            
         }
         public ActionResult _PartialgetCPBankDtl(string CustId)
         {

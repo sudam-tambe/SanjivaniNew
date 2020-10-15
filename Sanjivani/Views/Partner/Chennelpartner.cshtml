@@ -9,12 +9,12 @@
     <div class="container-fluid">
         <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Dashboard</h1>
+                <h1 class="m-0 text-dark">Channal Partner</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active">Dashboard v1</li>
+                    <li class="breadcrumb-item active">Channal Partner</li>
                 </ol>
             </div><!-- /.col -->
         </div><!-- /.row -->
@@ -79,29 +79,29 @@
                 <div class="card card-primary card-tabs">
                     <div class="card-header p-0 pt-1">
                         <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="one" data-toggle="pill" href="#tab_1" role="tab" aria-controls="custom-tabs-one-home" aria-selected="false">Personal Detail</a>
+                            <li class="nav-item"  id="one">
+                                <a class="nav-link active" data-toggle="pill" href="#tab_1" role="tab" aria-controls="custom-tabs-one-home" aria-selected="false">CP Info</a>
+                            </li>
+                            <li class="nav-item" id="two">
+                                <a class="nav-link "  data-toggle="pill" href="#tab_2" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="true">Business</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " id="two" data-toggle="pill" href="#tab_2" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="true">Business Detail</a>
+                                <a class="nav-link" id="three" data-toggle="pill" href="#tab_3" role="tab" aria-controls="custom-tabs-one-messages" aria-selected="false">Bank</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="three" data-toggle="pill" href="#tab_3" role="tab" aria-controls="custom-tabs-one-messages" aria-selected="false">Bank Detail</a>
+                                <a class="nav-link" id="four" data-toggle="pill" href="#tab_4" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">Documents</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="four" data-toggle="pill" href="#tab_4" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">Document Detail</a>
+                                <a class="nav-link" id="five" data-toggle="pill" href="#tab_5" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">Intraction</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="five" data-toggle="pill" href="#tab_5" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">User Intraction</a>
+                                <a class="nav-link" id="six" data-toggle="pill" href="#tab_6" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">Products</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="six" data-toggle="pill" href="#tab_6" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">Channal Partner Product</a>
+                                <a class="nav-link" id="Seven" data-toggle="pill" href="#tab_7" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">GHD Ticket</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="Seven" data-toggle="pill" href="#tab_7" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">CP Global Help Desk Tickets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="Eight" data-toggle="pill" href="#tab_8" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">CP Finance & Accounting</a>
+                                <a class="nav-link" id="Eight" data-toggle="pill" href="#tab_8" role="tab" aria-controls="custom-tabs-one-settings" aria-selected="false">CP Billing</a>
                             </li>
                         </ul>
                     </div>
@@ -157,6 +157,49 @@
     $('#tab_5').html(d);
     var d = loadData("@Url.Action("_partialCPDocument", "Partner")", {});
     $('#tab_4').html(d);
+    alert('a')
+    $(document).ready(function () {
+        var session = '@Session["Tab"]';
+
+        debugger;
+        alert('a')
+        $('.nav li').removeClass('active');
+
+        if (session == '2') {
+            $('#tab_1').html('');
+            $('#two').addClass('active')
+            $('#tab_1').removeClass('active')
+            $('#tab_3').removeClass('active')
+            $('#tab_4').removeClass('active')
+            $('#tab_2').addClass('tab-pane fade active show')
+        }
+        else if (session == '3') {
+
+            $('#three').addClass('active')
+            $('#tab_1').removeClass('active')
+            $('#tab_2').removeClass('active')
+            $('#tab_4').removeClass('active')
+            $('#tab_3').addClass('tab-pane fade active show')
+        }
+        else if (session == '4') {
+
+            $('#four').addClass('active')
+            $('#tab_1').removeClass('active')
+            $('#tab_2').removeClass('active')
+            $('#tab_3').removeClass('active')
+            $('#tab_4').addClass('tab-pane fade active show')
+        }
+        else {
+            $('#one').addClass('active')
+            $('#tab_4').removeClass('active')
+            $('#tab_2').removeClass('active')
+            $('#tab_3').removeClass('active')
+            $('#tab_1').addClass('tab-pane fade active show')
+        }
+        //e.preventDefault();
+
+    });
+
 
     function fnAllowNumeric() {
         if ((event.keyCode < 48 || event.keyCode > 57) && event.keyCode != 8) {
@@ -201,7 +244,7 @@
     }
     function validateCaseSensitiveEmail() {
 
-        debugger;
+       
         var EmailId = $('#EmailID').val();
         if (EmailId != '')
         {
@@ -290,55 +333,11 @@
         return true;
     }
 
-    $(document).ready(function () {
-        var session = '@Session["Tab"]';
-
-        debugger;
-
-        $('.nav li').removeClass('active');
-
-        if (session == '2')
-        {
-            $('#tab_1').html('');
-            $('#two').addClass('active')
-            $('#tab_1').removeClass('active')
-            $('#tab_3').removeClass('active')
-            $('#tab_4').removeClass('active')
-            $('#tab_2').addClass('tab-pane active')
-        }
-        else if (session == '3')
-        {
-
-            $('#three').addClass('active')
-            $('#tab_1').removeClass('active')
-            $('#tab_2').removeClass('active')
-            $('#tab_4').removeClass('active')
-            $('#tab_3').addClass('tab-pane active')
-        }
-        else if (session == '4') {
-
-            $('#four').addClass('active')
-            $('#tab_1').removeClass('active')
-            $('#tab_2').removeClass('active')
-            $('#tab_3').removeClass('active')
-            $('#tab_4').addClass('tab-pane active')
-        }
-        else
-        {
-            $('#one').addClass('active')
-            $('#tab_4').removeClass('active')
-            $('#tab_2').removeClass('active')
-            $('#tab_3').removeClass('active')
-            $('#tab_1').addClass('tab-pane active')
-        }
-        //e.preventDefault();
-
-    });
-
+   
 
     $('#UserName').change(function () {
 
-        debugger;
+      
         var userId =$('#UserName').val();
         var data={UserId:userId};
         credit = 0;
@@ -362,7 +361,7 @@
 
     $('#EmailID').focusout(function () {
 
-        debugger;
+       
         var EmailId = $('#EmailID').val();
         var data = { Email: EmailId };
         credit = 0;
@@ -409,7 +408,7 @@
 
     var cek = /^[a-zA-Z\ \']+$/;
     function validate(form) {
-        debugger;
+        
         var name = $('#chennelpartName').val();
         if (name != '')
         {

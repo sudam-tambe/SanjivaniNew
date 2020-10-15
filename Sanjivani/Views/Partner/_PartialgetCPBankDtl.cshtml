@@ -5,14 +5,14 @@
 {
     @Html.AntiForgeryToken()
     <div class="box box-danger" id="loading-example">
-        <div class="box-header" style="cursor: move;background-color: steelblue;cursor: move;color: white;">
+        <div class="box-header" style="cursor: move;background-color: #007bff;cursor: move;color: white;">
             <!-- tools box -->
             <div class="pull-right box-tools">
 
                 @*<a class="btn btn-danger btn-sm" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></a>*@
 
             </div><!-- /. tools -->
-            <i class="fa fa-home"></i>
+            
 
             <h3 class="box-title">Bank Detail</h3>
         </div><!-- /.box-header -->
@@ -59,8 +59,11 @@
                     @Html.DropDownListFor(model => model.AccountType, new SelectList(ViewBag.Accountype, "Value", "Text"), "--Select Account Type--", new { @class = "form-control", })
                 </div>
                 <div class="col-md-12">
-                    <div class="col-md-1"><a class="btn btn-danger" onclick="CPBankDtlEnableTrue()"><i class="fa fa-edit"></i> Edit</a></div>
-                    <div class="col-md-1"><button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save</button></div>
+                    <div class="col-md-3">
+                    <a class="btn btn-danger" onclick="CPBankDtlEnableTrue()"><i class="fa fa-edit"></i> Edit</a>
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save</button>
+                    </div>
+                    <div class="col-md-1"></div>
                 </div>
             </div><!-- /.row - inside box -->
         </div><!-- /.box-body -->

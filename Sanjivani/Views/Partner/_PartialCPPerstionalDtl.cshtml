@@ -5,15 +5,14 @@
 {
     @Html.AntiForgeryToken()
     <div class="box box-danger shadow" id="loading-example">
-        <div class="box-header" style="cursor: move;background-color: steelblue;cursor: move;color: white;">
+        <div class="box-header" style="cursor: move;background-color: #007bff;cursor: move;color: white;">
             <!-- tools box -->
             <div class="pull-right box-tools">
 
                 @*<a class="btn btn-danger btn-sm" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></a>*@
 
             </div><!-- /. tools -->
-            <i class="fa fa-user"></i>
-
+          
             <h3 class="box-title">Personal Detail</h3>
         </div><!-- /.box-header -->
         <div class="box-body no-padding" style="background-color: whitesmoke;">
@@ -100,8 +99,11 @@ new SelectList(Enumerable.Empty<SelectListItem>
     new { @class = "cities order-alpha dropdown form-control", @id = "cityId" })
                 </div>
                 <div class="col-md-12">
-                    <div class="col-md-1"><a class="btn btn-danger" onclick="CPPersonalEnableTrue()"><i class="fa fa-edit"></i> Edit</a></div>
-                    <div class="col-md-1"><button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save</button></div>
+                    <div class="col-md-3">
+                    <a class="btn btn-danger" onclick="CPPersonalEnableTrue()" style="color:white"><i class="fa fa-edit"></i> Edit</a>
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save</button>
+                    </div>
+                    <div class="col-md-3"></div>
                 </div>
 
             </div><!-- /.row - inside box -->
